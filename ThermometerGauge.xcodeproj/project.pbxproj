@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47BF5E4218157CF8001A5F1A /* ShinobiGauges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47BF5E4118157CF8001A5F1A /* ShinobiGauges.framework */; };
 		47E74D9A18116AD0006D1C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74D9918116AD0006D1C98 /* Foundation.framework */; };
 		47E74D9C18116AD0006D1C98 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74D9B18116AD0006D1C98 /* CoreGraphics.framework */; };
 		47E74D9E18116AD0006D1C98 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74D9D18116AD0006D1C98 /* UIKit.framework */; };
@@ -16,12 +17,12 @@
 		47E74DAD18116AD0006D1C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E74DAB18116AD0006D1C98 /* Main.storyboard */; };
 		47E74DB018116AD0006D1C98 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47E74DAF18116AD0006D1C98 /* ViewController.m */; };
 		47E74DB218116AD0006D1C98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E74DB118116AD0006D1C98 /* Images.xcassets */; };
-		47E74DCF18116B57006D1C98 /* ShinobiGauges.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74DCE18116B57006D1C98 /* ShinobiGauges.framework */; };
 		47E74DD118116B67006D1C98 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74DD018116B67006D1C98 /* Security.framework */; };
 		47E74DD318116B6C006D1C98 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E74DD218116B6C006D1C98 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47BF5E4118157CF8001A5F1A /* ShinobiGauges.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiGauges.framework; path = Library/Frameworks/ShinobiGauges.framework; sourceTree = DEVELOPER_DIR; };
 		47E74D9618116AD0006D1C98 /* ThermometerGauge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermometerGauge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E74D9918116AD0006D1C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		47E74D9B18116AD0006D1C98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -36,7 +37,6 @@
 		47E74DAE18116AD0006D1C98 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		47E74DAF18116AD0006D1C98 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		47E74DB118116AD0006D1C98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		47E74DCE18116B57006D1C98 /* ShinobiGauges.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ShinobiGauges.framework; sourceTree = "<group>"; };
 		47E74DD018116B67006D1C98 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		47E74DD218116B6C006D1C98 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -46,12 +46,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47BF5E4218157CF8001A5F1A /* ShinobiGauges.framework in Frameworks */,
 				47E74DD318116B6C006D1C98 /* QuartzCore.framework in Frameworks */,
 				47E74DD118116B67006D1C98 /* Security.framework in Frameworks */,
 				47E74D9C18116AD0006D1C98 /* CoreGraphics.framework in Frameworks */,
 				47E74D9E18116AD0006D1C98 /* UIKit.framework in Frameworks */,
 				47E74D9A18116AD0006D1C98 /* Foundation.framework in Frameworks */,
-				47E74DCF18116B57006D1C98 /* ShinobiGauges.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +78,9 @@
 		47E74D9818116AD0006D1C98 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				47BF5E4118157CF8001A5F1A /* ShinobiGauges.framework */,
 				47E74DD218116B6C006D1C98 /* QuartzCore.framework */,
 				47E74DD018116B67006D1C98 /* Security.framework */,
-				47E74DCE18116B57006D1C98 /* ShinobiGauges.framework */,
 				47E74D9918116AD0006D1C98 /* Foundation.framework */,
 				47E74D9B18116AD0006D1C98 /* CoreGraphics.framework */,
 				47E74D9D18116AD0006D1C98 /* UIKit.framework */,
@@ -287,7 +287,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/tkelly/Documents/gitRepos/ScaryBugs/ThermometerGauge,
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThermometerGauge/ThermometerGauge-Prefix.pch";
@@ -304,7 +304,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/tkelly/Documents/gitRepos/ScaryBugs/ThermometerGauge,
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ThermometerGauge/ThermometerGauge-Prefix.pch";
@@ -333,6 +333,7 @@
 				47E74DCA18116AD1006D1C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
