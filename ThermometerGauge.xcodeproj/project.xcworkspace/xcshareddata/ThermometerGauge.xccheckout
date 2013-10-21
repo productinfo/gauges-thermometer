@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DBAC91D-F736-44DC-96C4-D9D0746E7DA0</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ThermometerGauge</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B37E0372-5F15-4D78-A5E8-FA9387810DEE</key>
+		<string>https://github.com/tpkelly/gauges-thermometer.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ThermometerGauge.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B37E0372-5F15-4D78-A5E8-FA9387810DEE</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/tpkelly/gauges-thermometer.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B37E0372-5F15-4D78-A5E8-FA9387810DEE</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B37E0372-5F15-4D78-A5E8-FA9387810DEE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>gauges-thermometer</string>
+		</dict>
+	</array>
+</dict>
+</plist>
