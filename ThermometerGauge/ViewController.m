@@ -43,8 +43,8 @@
     
     //Add the "Mercury"
     gauge.style.fillToValue = YES;
-    gauge.style.fillValueInnerRadius = 0.75;
-    gauge.style.fillValueOuterRadius = 0.85;
+    gauge.style.fillValueInnerRadius = 0.4;
+    gauge.style.fillValueOuterRadius = 0.6;
 
     //Add a Fahrenheit axis
     SGaugeAxis *fahrenheitAxis = [[SGaugeAxis alloc] initWithGauge:gauge];
