@@ -33,7 +33,7 @@
     gauge.style.tickBaselinePosition = 0.03;
 
     //Style the axis
-    gauge.style.tickLabelOffsetFromBaseline = -45;
+    gauge.style.tickLabelOffsetFromBaseline = -25;
     gauge.style.tickLabelColor = [UIColor darkGrayColor];
     gauge.style.tickBaselineWidth = 0;
 
@@ -52,7 +52,7 @@
     fahrenheitAxis.maximumValue = [self fahrenheitFromCelsius:gauge.axis.maximumValue];
     fahrenheitAxis.tickBaselinePosition = 0.97;
     fahrenheitAxis.tickMarkAlignment = SGaugeTickAlignTop;
-    fahrenheitAxis.tickLabelOffsetFromBaseline = 45;
+    fahrenheitAxis.tickLabelOffsetFromBaseline = 25;
     
     [gauge addSubview:fahrenheitAxis];
 }
