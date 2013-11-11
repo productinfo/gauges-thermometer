@@ -1,7 +1,7 @@
 Shinobi Gauges Thermometer (Objective-C)
 =====================
 
-Building a Thermometer with ShinobiGauges. You can follow along [on the blog](http://www.shinobicontrols.com/blog/posts/2013/11/01/turning-up-the-heat-with-shinobigauges/) too.
+Building a Thermometer with ShinobiGauges. You can follow along [on the blog](http://www.shinobicontrols.com/blog/posts/2013/11/18/turning-up-the-heat-with-shinobigauges/) too.
 
 ![Screenshot](screenshot.png?raw=true)
 
