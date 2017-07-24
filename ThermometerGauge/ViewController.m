@@ -14,7 +14,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    [ShinobiGauges setLicenseKey:@""]; // Add license key here
+    [ShinobiGauges setTrialKey:@""]; // Add trial key here
     
     //Create the Gauge
     SGaugeLinear *gauge = [[SGaugeLinear alloc] initWithFrame:_placeholder.bounds fromMinimum:@-40 toMaximum:@50];
